@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32035E81B0333CF003D94B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32035E71B0333CF003D94B2 /* AppDelegate.swift */; };
+		C32035EA1B0333CF003D94B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32035E91B0333CF003D94B2 /* ViewController.swift */; };
+		C32035ED1B0333CF003D94B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32035EB1B0333CF003D94B2 /* Main.storyboard */; };
+		C32035EF1B0333CF003D94B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32035EE1B0333CF003D94B2 /* Images.xcassets */; };
+		C32035F21B0333CF003D94B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32035F01B0333CF003D94B2 /* LaunchScreen.xib */; };
+		C32035FE1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32035FD1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift */; };
+		C32036111B0333FF003D94B2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036101B0333FF003D94B2 /* InterfaceController.swift */; };
+		C32036131B0333FF003D94B2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036121B0333FF003D94B2 /* NotificationController.swift */; };
+		C32036151B0333FF003D94B2 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036141B0333FF003D94B2 /* GlanceController.swift */; };
+		C32036171B0333FF003D94B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32036161B0333FF003D94B2 /* Images.xcassets */; };
+		C320361B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */; };
+		C32036231B0333FF003D94B2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32036211B0333FF003D94B2 /* Interface.storyboard */; };
+		C32036251B0333FF003D94B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32036241B0333FF003D94B2 /* Images.xcassets */; };
+		C32036281B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C320360B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C32036311B033927003D94B2 /* ModalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036301B033927003D94B2 /* ModalInterfaceController.swift */; };
+		C32036351B0342E9003D94B2 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036341B0342E9003D94B2 /* TableRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32035F81B0333CF003D94B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32035DA1B0333CF003D94B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32035E11B0333CF003D94B2;
+			remoteInfo = ModalWatchKitExample;
+		};
+		C320361C1B0333FF003D94B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32035DA1B0333CF003D94B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32036191B0333FF003D94B2;
+			remoteInfo = "ModalWatchKitExample WatchKit App";
+		};
+		C32036261B0333FF003D94B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32035DA1B0333CF003D94B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C320360A1B0333FF003D94B2;
+			remoteInfo = "ModalWatchKitExample WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C320362F1B0333FF003D94B2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C32036281B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C32035E21B0333CF003D94B2 /* ModalWatchKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalWatchKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32035E61B0333CF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32035E71B0333CF003D94B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32035E91B0333CF003D94B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32035EC1B0333CF003D94B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32035EE1B0333CF003D94B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C32035F11B0333CF003D94B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C32035F71B0333CF003D94B2 /* ModalWatchKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalWatchKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32035FC1B0333CF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32035FD1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWatchKitExampleTests.swift; sourceTree = "<group>"; };
+		C320360B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ModalWatchKitExample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C320360E1B0333FF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C320360F1B0333FF003D94B2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C32036101B0333FF003D94B2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C32036121B0333FF003D94B2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C32036141B0333FF003D94B2 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		C32036161B0333FF003D94B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModalWatchKitExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32036201B0333FF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32036221B0333FF003D94B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C32036241B0333FF003D94B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C32036301B033927003D94B2 /* ModalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalInterfaceController.swift; sourceTree = "<group>"; };
+		C32036341B0342E9003D94B2 /* TableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32035DF1B0333CF003D94B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32035F41B0333CF003D94B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32036081B0333FF003D94B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32035D91B0333CF003D94B2 = {
+			isa = PBXGroup;
+			children = (
+				C32035E41B0333CF003D94B2 /* ModalWatchKitExample */,
+				C32035FA1B0333CF003D94B2 /* ModalWatchKitExampleTests */,
+				C320360C1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */,
+				C320361E1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App */,
+				C32035E31B0333CF003D94B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32035E31B0333CF003D94B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32035E21B0333CF003D94B2 /* ModalWatchKitExample.app */,
+				C32035F71B0333CF003D94B2 /* ModalWatchKitExampleTests.xctest */,
+				C320360B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex */,
+				C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32035E41B0333CF003D94B2 /* ModalWatchKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				C32035E71B0333CF003D94B2 /* AppDelegate.swift */,
+				C32035E91B0333CF003D94B2 /* ViewController.swift */,
+				C32035EB1B0333CF003D94B2 /* Main.storyboard */,
+				C32035EE1B0333CF003D94B2 /* Images.xcassets */,
+				C32035F01B0333CF003D94B2 /* LaunchScreen.xib */,
+				C32035E51B0333CF003D94B2 /* Supporting Files */,
+			);
+			path = ModalWatchKitExample;
+			sourceTree = "<group>";
+		};
+		C32035E51B0333CF003D94B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32035E61B0333CF003D94B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32035FA1B0333CF003D94B2 /* ModalWatchKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32035FD1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift */,
+				C32035FB1B0333CF003D94B2 /* Supporting Files */,
+			);
+			path = ModalWatchKitExampleTests;
+			sourceTree = "<group>";
+		};
+		C32035FB1B0333CF003D94B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32035FC1B0333CF003D94B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C320360C1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C32036101B0333FF003D94B2 /* InterfaceController.swift */,
+				C32036121B0333FF003D94B2 /* NotificationController.swift */,
+				C32036141B0333FF003D94B2 /* GlanceController.swift */,
+				C32036161B0333FF003D94B2 /* Images.xcassets */,
+				C320360D1B0333FF003D94B2 /* Supporting Files */,
+				C32036301B033927003D94B2 /* ModalInterfaceController.swift */,
+				C32036341B0342E9003D94B2 /* TableRowController.swift */,
+			);
+			path = "ModalWatchKitExample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C320360D1B0333FF003D94B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C320360E1B0333FF003D94B2 /* Info.plist */,
+				C320360F1B0333FF003D94B2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C320361E1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C32036211B0333FF003D94B2 /* Interface.storyboard */,
+				C32036241B0333FF003D94B2 /* Images.xcassets */,
+				C320361F1B0333FF003D94B2 /* Supporting Files */,
+			);
+			path = "ModalWatchKitExample WatchKit App";
+			sourceTree = "<group>";
+		};
+		C320361F1B0333FF003D94B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32036201B0333FF003D94B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32035E11B0333CF003D94B2 /* ModalWatchKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32036011B0333CF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample" */;
+			buildPhases = (
+				C32035DE1B0333CF003D94B2 /* Sources */,
+				C32035DF1B0333CF003D94B2 /* Frameworks */,
+				C32035E01B0333CF003D94B2 /* Resources */,
+				C320362F1B0333FF003D94B2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32036271B0333FF003D94B2 /* PBXTargetDependency */,
+			);
+			name = ModalWatchKitExample;
+			productName = ModalWatchKitExample;
+			productReference = C32035E21B0333CF003D94B2 /* ModalWatchKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32035F61B0333CF003D94B2 /* ModalWatchKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32036041B0333CF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExampleTests" */;
+			buildPhases = (
+				C32035F31B0333CF003D94B2 /* Sources */,
+				C32035F41B0333CF003D94B2 /* Frameworks */,
+				C32035F51B0333CF003D94B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32035F91B0333CF003D94B2 /* PBXTargetDependency */,
+			);
+			name = ModalWatchKitExampleTests;
+			productName = ModalWatchKitExampleTests;
+			productReference = C32035F71B0333CF003D94B2 /* ModalWatchKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C320360A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C320362C1B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit Extension" */;
+			buildPhases = (
+				C32036071B0333FF003D94B2 /* Sources */,
+				C32036081B0333FF003D94B2 /* Frameworks */,
+				C32036091B0333FF003D94B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C320361D1B0333FF003D94B2 /* PBXTargetDependency */,
+			);
+			name = "ModalWatchKitExample WatchKit Extension";
+			productName = "ModalWatchKitExample WatchKit Extension";
+			productReference = C320360B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C32036191B0333FF003D94B2 /* ModalWatchKitExample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32036291B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit App" */;
+			buildPhases = (
+				C32036181B0333FF003D94B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModalWatchKitExample WatchKit App";
+			productName = "ModalWatchKitExample WatchKit App";
+			productReference = C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32035DA1B0333CF003D94B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Comeet;
+				TargetAttributes = {
+					C32035E11B0333CF003D94B2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C32035F61B0333CF003D94B2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C32035E11B0333CF003D94B2;
+					};
+					C320360A1B0333FF003D94B2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C32036191B0333FF003D94B2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C32035DD1B0333CF003D94B2 /* Build configuration list for PBXProject "ModalWatchKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32035D91B0333CF003D94B2;
+			productRefGroup = C32035E31B0333CF003D94B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32035E11B0333CF003D94B2 /* ModalWatchKitExample */,
+				C32035F61B0333CF003D94B2 /* ModalWatchKitExampleTests */,
+				C320360A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */,
+				C32036191B0333FF003D94B2 /* ModalWatchKitExample WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32035E01B0333CF003D94B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32035ED1B0333CF003D94B2 /* Main.storyboard in Resources */,
+				C32035F21B0333CF003D94B2 /* LaunchScreen.xib in Resources */,
+				C32035EF1B0333CF003D94B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32035F51B0333CF003D94B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32036091B0333FF003D94B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C320361B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app in Resources */,
+				C32036171B0333FF003D94B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32036181B0333FF003D94B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32036231B0333FF003D94B2 /* Interface.storyboard in Resources */,
+				C32036251B0333FF003D94B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32035DE1B0333CF003D94B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32035EA1B0333CF003D94B2 /* ViewController.swift in Sources */,
+				C32035E81B0333CF003D94B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32035F31B0333CF003D94B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32035FE1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32036071B0333FF003D94B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32036351B0342E9003D94B2 /* TableRowController.swift in Sources */,
+				C32036131B0333FF003D94B2 /* NotificationController.swift in Sources */,
+				C32036111B0333FF003D94B2 /* InterfaceController.swift in Sources */,
+				C32036151B0333FF003D94B2 /* GlanceController.swift in Sources */,
+				C32036311B033927003D94B2 /* ModalInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32035F91B0333CF003D94B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32035E11B0333CF003D94B2 /* ModalWatchKitExample */;
+			targetProxy = C32035F81B0333CF003D94B2 /* PBXContainerItemProxy */;
+		};
+		C320361D1B0333FF003D94B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32036191B0333FF003D94B2 /* ModalWatchKitExample WatchKit App */;
+			targetProxy = C320361C1B0333FF003D94B2 /* PBXContainerItemProxy */;
+		};
+		C32036271B0333FF003D94B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C320360A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */;
+			targetProxy = C32036261B0333FF003D94B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32035EB1B0333CF003D94B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32035EC1B0333CF003D94B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32035F01B0333CF003D94B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32035F11B0333CF003D94B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C32036211B0333FF003D94B2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32036221B0333FF003D94B2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32035FF1B0333CF003D94B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32036001B0333CF003D94B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32036021B0333CF003D94B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalWatchKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32036031B0333CF003D94B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalWatchKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32036051B0333CF003D94B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalWatchKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalWatchKitExample.app/ModalWatchKitExample";
+			};
+			name = Debug;
+		};
+		C32036061B0333CF003D94B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalWatchKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalWatchKitExample.app/ModalWatchKitExample";
+			};
+			name = Release;
+		};
+		C320362A1B0333FF003D94B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ModalWatchKitExample_WatchKit_Extension;
+				INFOPLIST_FILE = "ModalWatchKitExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C320362B1B0333FF003D94B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ModalWatchKitExample_WatchKit_Extension;
+				INFOPLIST_FILE = "ModalWatchKitExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C320362D1B0333FF003D94B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalWatchKitExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C320362E1B0333FF003D94B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ModalWatchKitExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32035DD1B0333CF003D94B2 /* Build configuration list for PBXProject "ModalWatchKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32035FF1B0333CF003D94B2 /* Debug */,
+				C32036001B0333CF003D94B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32036011B0333CF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32036021B0333CF003D94B2 /* Debug */,
+				C32036031B0333CF003D94B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32036041B0333CF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32036051B0333CF003D94B2 /* Debug */,
+				C32036061B0333CF003D94B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32036291B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C320362A1B0333FF003D94B2 /* Debug */,
+				C320362B1B0333FF003D94B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C320362C1B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C320362D1B0333FF003D94B2 /* Debug */,
+				C320362E1B0333FF003D94B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32035DA1B0333CF003D94B2 /* Project object */;
+}
