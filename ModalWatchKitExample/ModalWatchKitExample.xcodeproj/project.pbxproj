@@ -14,8 +14,6 @@
 		C32035F21B0333CF003D94B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32035F01B0333CF003D94B2 /* LaunchScreen.xib */; };
 		C32035FE1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32035FD1B0333CF003D94B2 /* ModalWatchKitExampleTests.swift */; };
 		C32036111B0333FF003D94B2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036101B0333FF003D94B2 /* InterfaceController.swift */; };
-		C32036131B0333FF003D94B2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036121B0333FF003D94B2 /* NotificationController.swift */; };
-		C32036151B0333FF003D94B2 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32036141B0333FF003D94B2 /* GlanceController.swift */; };
 		C32036171B0333FF003D94B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32036161B0333FF003D94B2 /* Images.xcassets */; };
 		C320361B1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */; };
 		C32036231B0333FF003D94B2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32036211B0333FF003D94B2 /* Interface.storyboard */; };
@@ -78,8 +76,6 @@
 		C320360E1B0333FF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C320360F1B0333FF003D94B2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C32036101B0333FF003D94B2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		C32036121B0333FF003D94B2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		C32036141B0333FF003D94B2 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		C32036161B0333FF003D94B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C320361A1B0333FF003D94B2 /* ModalWatchKitExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModalWatchKitExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32036201B0333FF003D94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,13 +173,11 @@
 		C320360C1B0333FF003D94B2 /* ModalWatchKitExample WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C32036101B0333FF003D94B2 /* InterfaceController.swift */,
-				C32036121B0333FF003D94B2 /* NotificationController.swift */,
-				C32036141B0333FF003D94B2 /* GlanceController.swift */,
-				C32036161B0333FF003D94B2 /* Images.xcassets */,
-				C320360D1B0333FF003D94B2 /* Supporting Files */,
 				C32036301B033927003D94B2 /* ModalInterfaceController.swift */,
 				C32036341B0342E9003D94B2 /* TableRowController.swift */,
+				C32036101B0333FF003D94B2 /* InterfaceController.swift */,
+				C32036161B0333FF003D94B2 /* Images.xcassets */,
+				C320360D1B0333FF003D94B2 /* Supporting Files */,
 			);
 			path = "ModalWatchKitExample WatchKit Extension";
 			sourceTree = "<group>";
@@ -394,9 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32036351B0342E9003D94B2 /* TableRowController.swift in Sources */,
-				C32036131B0333FF003D94B2 /* NotificationController.swift in Sources */,
 				C32036111B0333FF003D94B2 /* InterfaceController.swift in Sources */,
-				C32036151B0333FF003D94B2 /* GlanceController.swift in Sources */,
 				C32036311B033927003D94B2 /* ModalInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,6 +653,7 @@
 				C32036031B0333CF003D94B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32036041B0333CF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -669,6 +662,7 @@
 				C32036061B0333CF003D94B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32036291B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +671,7 @@
 				C320362B1B0333FF003D94B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C320362C1B0333FF003D94B2 /* Build configuration list for PBXNativeTarget "ModalWatchKitExample WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +680,7 @@
 				C320362E1B0333FF003D94B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
