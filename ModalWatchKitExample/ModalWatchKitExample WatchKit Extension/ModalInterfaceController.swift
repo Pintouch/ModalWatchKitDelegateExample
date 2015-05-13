@@ -28,7 +28,7 @@ class ModalInterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         self.delegate = context as? InterfaceController
         // Configure interface objects here.
-        println(delegate)
+    
         loadTableData()
     }
     
@@ -55,7 +55,7 @@ class ModalInterfaceController: WKInterfaceController {
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
         let selectedItem = items[rowIndex]
-        println("Item Selected = \(selectedItem)")
+        
         self.delegate?.didSelectItem(selectedItem)
         self.dismissController()
     }
